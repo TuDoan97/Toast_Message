@@ -12,7 +12,33 @@
     <title>Toast Message</title>
 </head>
 <body>
-    <div id="toast"></div>
+    <div id="toast">
+        <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">May vi tinh ket noi thanh cong!</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <div class="toast toast--info">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">May vi tinh ket noi thanh cong!</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
     <div>
         <div onclick="showSuccessToast()" class="btn btn--success">Show success toast</div>
         <div onclick="showErrorToast()" class="btn btn--danger">Show error toast</div>
